@@ -1,0 +1,86 @@
+/* App.css */
+
+/* App.css */
+
+/* ... (previous styles) */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #87CEEB; 
+}
+
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  text-align: right; /* Align the text to the left */
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  width: 28%;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.days-forecast {
+  background-color: grey;
+  padding: 20px;
+  border-radius: 10px;
+  height: 70%; /* Set to 70% of the height */
+  overflow-y: auto; 
+}
+
+
+
+
+.weather-cards {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  overflow-x: auto; /* Allow horizontal scrolling if necessary */
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px; /* Set a fixed width for each card */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+}
